@@ -1,0 +1,12 @@
+package com.genai.productservice.repository;
+
+//package com.ujwal.productservice.repository;
+
+//import com.ujwal.productservice.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.genai.productservice.entity.Product;
+
+public interface ProductRepository extends JpaRepository<Product, Long> {
+}
+
